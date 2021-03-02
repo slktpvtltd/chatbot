@@ -1,0 +1,1439 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Hellow",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello !",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Ok", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "question1",
+      "patterns": [
+        "What is Factorising",
+        "Factorising is",
+        "Meaning of Factorising"
+      ],
+      "responses": [
+        "Factorising is the reverse of expanding brackets, so it is, for example, putting 2x² + x - 3 into the form (2x + 3)(x - 1). This is an important way of solving quadratic equations. The first step of factorising an expression is to 'take out' any common factors which the terms have. So if you were asked to factorise x² + x, since x goes into both terms, you would write x(x + 1) ."
+      ]
+    },
+    {
+      "tag": "question2",
+      "patterns": [
+        "What is Set of Integers",
+        "Set of Integers is",
+        "Meaning of Set of Integers "
+      ],
+      "responses": [
+        "It is natural that we identify initially the numbers 1, 2, 3, … which we first learnt about as children. These numbers are defined as counting numbers and the set which consists of all these numbers is written using set notation as follows. {1, 2, 3, …}. (O/L MATHEMATICS TEXTBOOK - Grade 11 - Part I - Page 02)",
+        "Numbers 1, 2, 3, ... We also define this set as a set of natural numbers. (O / L Mathematics Textbook - Grade 11 - Part 1 - Page 02)"
+      ]
+    },
+    {
+      "tag": "question3",
+      "patterns": [
+        "What is Set of Natural Numbers",
+        "Set of Natural Numbers is",
+        "Meaning of Set of Natural Numbers"
+      ],
+      "responses": [
+        "Let us consider again the set of numbers 1, 2, 3,... This set is also defined as the set of natural numbers and is denoted by N That is, N = {1, 2, ...}. (O/L MATHEMATICS TEXTBOOK - Grade 11 - Part I - Page 02)",
+        "Numbers 1, 2, 3, ... We also define this set as a set of natural numbers. (O / L Mathematics Textbook - Grade 11 - Part 1 - Page 02)"
+      ]
+    },
+    {
+      "tag": "question4",
+      "patterns": [
+        "What is set of Rational Numbers",
+        "set of Rational Numbers is",
+        "Meaning of set of Rational Numbers"
+      ],
+      "responses": [
+        "Like the integers, fractions too can be considered as numbers, and that operations such as addition and multiplication can be performed on them too. Every integer can be written as a fraction. (For example, we can write 2 = 2/1 ). Further, a fraction can be written in different forms, all having the same numerical value. (For example, 1/2 = 2/4 = 3/6 ). We have also come across negative fractions etc. Although we usually think that the numerator and denominator of a fraction should consist of integers, this is actually not the case. However, fractions with integers in both the numerator and the denominator (apart from 0 in the denominator), have an important place in mathematics. They are called rational numbers. The set of rational numbers is denoted by .(O/L MATHEMATICS TEXTBOOK - Grade 11 - Part I - Page 03)",
+        "Like integers, can be considered numbers, and operations such as addition and multiplication can be performed on them. Each integer can be written as a fraction. (For example, we can write 2 = 2/1). Also, half can be written in different formats, all with the same numeric value. (For example, 1/2 = 2/4 = 3/6). We have also come across negative fractions. Although we generally think that half-numbers and cores should consist of integers, in reality, it is not so. However, fractions with integers (other than 0 in the genre) in both numbers and cores occupy an important place in mathematics. They are called logical numbers. The logical number is shown by the group. (O / L Mathematics Textbook - Grade 11 - Part 1 - Page 03)"
+      ]
+    },
+    {
+      "tag": "question5",
+      "patterns": [
+        "What is Set of Irrational Numbers",
+        "Set of Irrational Numbers is",
+        "Meaning of Set of Irrational Numbers"
+      ],
+      "responses": [
+        "An irrational number is a real number that cannot be reduced to any ratio between an integer p and a natural number q . The union of the set of irrational numbers and the set of rational numbers forms the set of real numbers. ... Pi and e are examples of special irrationals known as a transcendental numbers. (O/L MATHEMATICS TEXTBOOK - Grade 11 - Part I - Page 04)",
+        "An irrational number is a real number which cannot be reduced to any ratio between integers p and natural numbers q. The combination of the set of irrational numbers and the set of rational numbers forms a set of real numbers. ... Pi and e are examples of special irrationality known as occult numbers. (Ordinary Level Mathematics Textbook - Grade 11 - Part 1 - Page 04)"
+      ]
+    },
+    {
+      "tag": "question6",
+      "patterns": [
+        "What is Set of Real Numbers",
+        "Set of Real Numbers is",
+        "Real Numbers is",
+        "Meaning of Set of Real Numbers"
+      ],
+      "responses": [
+        "All the numbers on a number line can be represented by rational numbers or irrational numbers. We call all the rational numbers together with all the irrational numbers, that is, all the numbers that can be represented on a number line, the real numbers. The set of real numbers is denoted by. (O/L MATHEMATICS TEXTBOOK - Grade 11 - Part I - Page 05)",
+        "All the numbers in a number line can be represented by logical numbers or irrational numbers. We call all logical numbers and all irrational numbers, that is, all numbers that can be represented by a line of numbers, real numbers. The real numbers are shown by the group. (O / L Mathematics Textbook - Grade 11 - Part 1 - Page 05)"
+      ]
+    },
+    {
+      "tag": "question7",
+      "patterns": [
+        "What is Decimal Representation of a Number",
+        "Decimal Representation of a Number is",
+        "Meaning of Decimal Representation of a Number"
+      ],
+      "responses": [
+        "A decimal number is a number where the integer part is separated from the fractional part with the help of a decimal point. The digits are placed to the left and to the right of the decimal to represent numbers greater than or less than one. (O/L MATHEMATICS TEXTBOOK - Grade 11 - Part I - Page 06)",
+        "A decimal number is a number that divides integers by halves with the help of a decimal point. The numbers are placed on the left and right decimals to represent more or less than one number. (Ordinary Level Mathematics Textbook - Grade 11 - Part 1 - Page 06)"
+      ]
+    },
+    {
+      "tag": "question8",
+      "patterns": [
+        "What is logarithm",
+        "logarithm is",
+        "Meaning of logarithm"
+      ],
+      "responses": [
+        "logarithm is the inverse function to exponentiation. That means the logarithm of a given number x is the exponent to which another fixed number, the base b, must be raised, to produce that number x. (O/L MATHEMATICS TEXTBOOK - Grade 11 - Part I - Page 27)"
+      ]
+    },
+    {
+      "tag": "question9",
+      "patterns": [
+        "What is Pyramid",
+        "Pyramid is",
+        "Meaning of Pyramid"
+      ],
+      "responses": [
+        "A pyramid is a polyhedron that has a base, which can be any polygon, and three or more triangular faces that meet at a point called the apex. These triangular sides are sometimes called the lateral faces to distinguish them from the base. (O/L MATHEMATICS TEXTBOOK - Grade 11 - Part I - Page 53)",
+        "A pyramid is a polymer with a base that can be any polymer, consisting of three or more triangular faces found at a location called the apex. These triangular sides are sometimes called lateral faces. (O / L Mathematics Textbook - Grade 11 - Part 1 - Page 53)"
+      ]
+    },
+    {
+      "tag": "question10",
+      "patterns": [
+        "What is Difference of Two Squares",
+        "Difference of Two Squares",
+        "Meaning of Difference Two Squares"
+      ],
+      "responses": [
+        "If you are asked to factorise an expression which is one square number minus another, you can factorise it immediately. This is because a² - b² = (a + b)(a - b) .",
+        "If you are asked to substitute another expression for one square number, you can confirm it immediately. This is because a² - b² = (a + b) (a - b)."
+      ]
+    },
+    {
+      "tag": "question11",
+      "patterns": [
+        "What is Trial and Improvement",
+        "Trial and Improvement is",
+        "Meaning of Trial and Improvement"
+      ],
+      "responses": [
+        "Any equation can be solved by trial and improvement (/error). However, this is a tedious procedure. Start by estimating the solution. Then substitute this into the equation to determine whether your estimate is too high or too low. Refine your estimate and repeat the process.",
+        "Any equation can be solved by experimenting and improving (/ error). However, this is a tedious procedure. Start by evaluating the solution. Substitute this into the equation to determine if your estimate is too high or too low. Refine your estimate and repeat the process."
+      ]
+    },
+    {
+      "tag": "question12",
+      "patterns": [
+        "What is Iteration",
+        "Iteration is",
+        "Meaning of Iteration"
+      ],
+      "responses": [
+        "It involves rearranging the equation you are trying to solve to give an iteration formula. This is then used repeatedly (using an estimate to start with) to get closer and closer to the answer.",
+        "It involves rearranging the equation you are trying to solve to give an iteration formula. This is used repeatedly (using an estimate, to begin with) to get closer and closer to the answer."
+      ]
+    },
+    {
+      "tag": "question13",
+      "patterns": [
+        "What is Algebraic Fractions",
+        "Algebraic Fractions is",
+        "Meaning of Algebraic Fractions"
+      ],
+      "responses": [
+        "Algebraic fractions are simply fractions with algebraic expressions on the top and/or bottom. When adding or subtracting algebraic fractions, the first thing to do is to put them onto a common denominator (by cross multiplying).",
+        "Algebraic fractions are simply subdivisions with upper and/or lower algebraic expressions. When adding or subtracting algebraic fractions, the first thing to do is to put them into a common core (by cross multiplication)."
+      ]
+    },
+    {
+      "tag": "question14",
+      "patterns": [
+        "What is Equation of a Straight Line",
+        "Equation of a Straight Line is",
+        "Meaning of Equation of a Straight Line"
+      ],
+      "responses": [
+        "Equations of straight lines are in the form y = mx + c (m and c are numbers). m is the gradient of the line and c is the y-intercept (where the graph crosses the y-axis)."
+      ]
+    },
+    {
+      "tag": "question15",
+      "patterns": [
+        "What is Cone",
+        "Cone is",
+        "Meaning of Cone"
+      ],
+      "responses": [
+        "A cone has a circular plane surface and a curved surface. The circular plane surface is called the base of the cone. The point through which all the straight lines drawn on the curved surface pass through is called the 'apex' of the cone. (O/L MATHEMATICS TEXTBOOK - Grade 11 - Part I - Page 55)"
+      ]
+    },
+  	{
+      "tag": "question16",
+      "patterns": [
+        "What is Sphere",
+        "Sphere is",
+        "Meaning of Sphere"
+      ],
+      "responses": [
+        "There is no doubt that you know what properties a sphere has. In mathematics, a sphere is defined as the set of points in three-dimensional space that lies at a constant distance from a fixed point. The fixed point is called the centre of the sphere and the constant distance from the centre to a point on the sphere is called the radius of the sphere. A sphere has only one curved surface and has no edges or vertices. (O/L MATHEMATICS TEXTBOOK - Grade 11 - Part I - Page 59)"
+      ]
+    },
+	  {
+      "tag": "question17",
+      "patterns": [
+        "What is Volume of a sphere",
+        "Volume of a sphereis",
+        "Meaning of Volume of a sphere"
+      ],
+      "responses": [
+        "Recall the circumscribing cylinder of a sphere, that we learned about in the lesson on the surface area of a sphere. Archimedes, the Greek mathematician who explained the surface area of a sphere in terms of the circumscribing cylinder, also explained the volume of a sphere in terms of the volume of the circumscribing cylinder. Let us do the following activity to understand his finding. (O/L MATHEMATICS TEXTBOOK - Grade 11 - Part I - Page 70)"
+      ]
+    },
+  	{
+      "tag": "question18",
+      "patterns": [
+        "What is Binomial Expressions",
+        "Binomial Expressions is",
+        "Meaning of Binomial Expressions"
+      ],
+      "responses": [
+        "A binomial expression of the form x + y, its square is denoted by (x + y)2, and that what it means is (x + y) (x + y), and that when the product is expanded, the expression x2 + 2xy + y2 is obtained. Moreover, recall that x2 – 2xy + y2 is obtained when (x – y)2 is expanded. (O/L MATHEMATICS TEXTBOOK - Grade 11 - Part I - Page 76)"
+      ]
+    },
+	  {
+      "tag": "question19",
+      "patterns": [
+        "What is Multiplying algebraic fractions",
+        "Multiplying algebraic fractions is",
+        "Meaning of Multiplying algebraic fractions"
+      ],
+      "responses": [
+        "Two algebraic fractions can be multiplied in the same way that two numerical fractions are multiplied (O/L MATHEMATICS Grade 11 Part - I Page 80)"
+      ]
+    },
+    {
+      "tag": "question200",
+      "patterns": [
+        "What is prob of sequence ccbc when four letters picked without replacement from nnscspb"
+      ],
+      "responses": [
+        "0"
+      ]
+    },
+  	{
+      "tag": "question201",
+      "patterns": [
+        "Three letters picked without replacement from {g: 3, w: 1, t: 7, u: 3}. Give prob of sequence tuw."
+      ],
+      "responses": [
+        "1/104"
+      ]
+    },
+	  {
+      "tag": "question202",
+      "patterns": [
+        "Three letters picked without replacement from dxaxxaaxxxaax. What is prob of sequence aad?"
+      ],
+      "responses": [
+        "5/429"
+      ]
+    },
+	  {
+      "tag": "question203",
+      "patterns": [
+        "Calculate prob of sequence rsp when three letters picked without replacement from pogpphggsrpogs."
+      ],
+      "responses": [
+        "1/273"
+      ]
+    },
+	  {
+      "tag": "question204",
+      "patterns": [
+        "Calculate prob of sequence bc when two letters picked without replacement from {b: 4, c: 3}."
+      ],
+      "responses": [
+        "2/7"
+      ]
+    },
+	  {
+      "tag": "question205",
+      "patterns": [
+        "What is prob of sequence piwo when four letters picked without replacement from {o: 1, i: 1, p: 1, w: 1, s: 1, a: 2}?"
+      ],
+      "responses": [
+        "1/840"
+      ]
+    },
+	  {
+      "tag": "question206",
+      "patterns": [
+        "Two letters picked without replacement from {v: 1, w: 1, p: 2, d: 1}. What is prob of sequence vp?"
+      ],
+      "responses": [
+        "1/10"
+      ]
+    },
+	  {
+      "tag": "question206",
+      "patterns": [
+        "Three letters picked without replacement from {a: 1, s: 2, r: 2, q: 9}. Give prob of sequence arr."
+      ],
+      "responses": [
+        "1/1092"
+      ]
+    },
+  	{
+      "tag": "question207",
+      "patterns": [
+        "Calculate prob of sequence zs when two letters picked without replacement from {z: 1, q: 5, s: 5}."
+      ],
+      "responses": [
+        "1//22"
+      ]
+    },
+	  {
+      "tag": "question208",
+      "patterns": [
+        "Calculate prob of sequence fd when two letters picked without replacement from {m: 1, d: 2, f: 1, z: 2, y: 2}."
+      ],
+      "responses": [
+        "1/28"
+      ]
+    },
+	  {
+      "tag": "question209",
+      "patterns": [
+        "Four letters picked without replacement from {u: 3, y: 3, q: 5}. What is prob of sequence qquq?"
+      ],
+      "responses": [
+        "1/44"
+      ]
+    },
+  	{
+      "tag": "question210",
+      "patterns": [
+        "Calculate prob of sequence ppy when three letters picked without replacement from {y: 2, p: 2}."
+      ],
+      "responses": [
+        "1/6"
+      ]
+    },
+	  {
+      "tag": "question211",
+      "patterns": [
+        "Two letters picked without replacement from sskseukyesekeussuy. What is prob of sequence se?"
+      ],
+      "responses": [
+        "4/51"
+      ]
+    },
+	  {
+      "tag": "question212",
+      "patterns": [
+        "Two letters picked without replacement from apxpppaadx. Give prob of sequence aa."
+      ],
+      "responses": [
+        "1/15"
+      ]
+    },
+	  {
+      "tag": "question213",
+      "patterns": [
+        "What is prob of sequence oj when two letters picked without replacement from {j: 1, o: 2, s: 2}?"
+      ],
+      "responses": [
+        "1/10"
+      ]
+    },
+	  {
+      "tag": "question214",
+      "patterns": [
+        "Four letters picked without replacement from aahgh. Give prob of sequence agga."
+      ],
+      "responses": [
+        "0"
+      ]
+    },
+	  {
+      "tag": "question215",
+      "patterns": [
+        "Two letters picked without replacement from {e: 1, r: 3, t: 1, z: 2}. Give prob of sequence rr."
+      ],
+      "responses": [
+        "1/7"
+      ]
+    },
+	  {
+      "tag": "question216",
+      "patterns": [
+        "What is the hundreds digit of 31253?"
+      ],
+      "responses": [
+        "2"
+      ]
+    },
+	  {
+      "tag": "question217",
+      "patterns": [
+        "What is the units digit of 8196?"
+      ],
+      "responses": [
+        "6"
+      ]
+    },
+	  {
+      "tag": "question218",
+      "patterns": [
+        "What is the ten thousands digit of 37118?"
+      ],
+      "responses": [
+        "3"
+      ]
+    },
+	  {
+      "tag": "question219",
+      "patterns": [
+        "What is the hundreds digit of 1229?"
+      ],
+      "responses": [
+        "2"
+      ]
+    },
+  	{
+      "tag": "question220",
+      "patterns": [
+        "What is the units digit of 834?"
+      ],
+      "responses": [
+        "4"
+      ]
+    },
+	  {
+      "tag": "question221",
+      "patterns": [
+        "What is the units digit of 13038?"
+      ],
+      "responses": [
+        "8"
+      ]
+    },
+	  {
+      "tag": "question222",
+      "patterns": [
+        "What is the thousands digit of 6447?"
+      ],
+      "responses": [
+        "6"
+      ]
+    },
+  	{
+      "tag": "question223",
+      "patterns": [
+        "What is the hundreds digit of 7337?"
+      ],
+      "responses": [
+        "3"
+      ]
+    },
+	  {
+      "tag": "question224",
+      "patterns": [
+        "What is the tens digit of 75184?"
+      ],
+      "responses": [
+        "8"
+      ]
+    },
+  	{
+      "tag": "question225",
+      "patterns": [
+        "What is the ten thousands digit of 96651?"
+      ],
+      "responses": [
+        "9"
+      ]
+    },
+	  {
+      "tag": "question226",
+      "patterns": [
+        "What is the hundreds digit of 9067?"
+      ],
+      "responses": [
+        "0"
+      ]
+    },
+  	{
+      "tag": "question227",
+      "patterns": [
+        "What is the units digit of 57?"
+      ],
+      "responses": [
+        "7"
+      ]
+    },
+	  {
+      "tag": "question228",
+      "patterns": [
+        "What is the tens digit of 603?"
+      ],
+      "responses": [
+        "0"
+      ]
+    },
+	  {
+      "tag": "question229",
+      "patterns": [
+        "What is the units digit of 1182?"
+      ],
+      "responses": [
+        "2"
+      ]
+    },
+	  {
+      "tag": "question230",
+      "patterns": [
+        "What is the thousands digit of 23730?"
+      ],
+      "responses": [
+        "3"
+      ]
+    },
+	  {
+      "tag": "question231",
+      "patterns": [
+        "What are the prime factors of 329?"
+      ],
+      "responses": [
+        "7, 47"
+      ]
+    },
+  	{
+      "tag": "question232",
+      "patterns": [
+        "What are the prime factors of 2250?"
+      ],
+      "responses": [
+        "2, 3, 5"
+      ]
+    },
+	  {
+      "tag": "question233",
+      "patterns": [
+        "What are the prime factors of 7380?"
+      ],
+      "responses": [
+        "2, 3, 5, 41"
+      ]
+    },
+  	{
+      "tag": "question234",
+      "patterns": [
+        "What are the prime factors of 6792?"
+      ],
+      "responses": [
+        "2, 3, 283"
+      ]
+    },
+	  {
+      "tag": "question235",
+      "patterns": [
+        "List the prime factors of 32253."
+      ],
+      "responses": [
+        "3, 13, 827"
+      ]
+    },
+  	{
+      "tag": "question236",
+      "patterns": [
+        "List the prime factors of 1312."
+      ],
+      "responses": [
+        "2, 41"
+      ]
+    },
+  	{
+      "tag": "question237",
+      "patterns": [
+        "What are the prime factors of 773?"
+      ],
+      "responses": [
+        "773"
+      ]
+    },
+  	{
+      "tag": "question238",
+      "patterns": [
+        "What are the prime factors of 12963"
+      ],
+      "responses": [
+        "3, 29, 149"
+      ]
+    },
+	  {
+      "tag": "question239",
+      "patterns": [
+        "List the prime factors of 31114."
+      ],
+      "responses": [
+        "2, 47, 331"
+      ]
+    },
+	  {
+      "tag": "question240",
+      "patterns": [
+        "What are the prime factors of 1316?"
+      ],
+      "responses": [
+        "2, 7, 47"
+      ]
+    },
+	  {
+      "tag": "question241",
+      "patterns": [
+        "List the prime factors of 87998."
+      ],
+      "responses": [
+        "2, 23, 1913"
+      ]
+    },
+	  {
+      "tag": "question242",
+      "patterns": [
+        "What are the prime factors of 1636?"
+      ],
+      "responses": [
+        "2, 409"
+      ]
+    },
+	  {
+      "tag": "question243",
+      "patterns": [
+        "List the prime factors of 1331."
+      ],
+      "responses": [
+        "11"
+      ]
+    },
+	  {
+      "tag": "question244",
+      "patterns": [
+        "List the prime factors of 44640."
+      ],
+      "responses": [
+        "2, 3, 5, 31"
+      ]
+    },
+	  {
+      "tag": "question245",
+      "patterns": [
+        "What are the prime factors of 146?"
+      ],
+      "responses": [
+        "2, 73"
+      ]
+    },
+	  {
+      "tag": "question246",
+      "patterns": [
+        "What are the prime factors of 9724?"
+      ],
+      "responses": [
+        "2, 11, 13, 17"
+      ]
+    },
+  	{
+      "tag": "question247",
+      "patterns": [
+        "What are the prime factors of 10853?"
+      ],
+      "responses": [
+        "10853"
+      ]
+    },
+	  {
+      "tag": "question248",
+      "patterns": [
+        "What are the prime factors of 49537?"
+      ],
+      "responses": [
+        "49537"
+      ]
+    },
+  	{
+      "tag": "question249",
+      "patterns": [
+        "What are the prime factors of 146166?"
+      ],
+      "responses": [
+        "2, 3, 17, 1433"
+      ]
+    },
+	  {
+      "tag": "question250",
+      "patterns": [
+        "What are the prime factors of 24458?"
+      ],
+      "responses": [
+        "2, 7, 1747"
+      ]
+    },
+  	{
+      "tag": "question251",
+      "patterns": [
+        "Is 93163 a prime number?"
+      ],
+      "responses": [
+        "False"
+      ]
+    },
+	  {
+      "tag": "question252",
+      "patterns": [
+        "Is 29179 prime?"
+      ],
+      "responses": [
+        "True"
+      ]
+    },
+	  {
+      "tag": "question253",
+      "patterns": [
+        "Is 323431 a prime number?"
+      ],
+      "responses": [
+        "False"
+      ]
+    },
+	  {
+      "tag": "question254",
+      "patterns": [
+        "Is 1454 prime?"
+      ],
+      "responses": [
+        "False"
+      ]
+    },
+	  {
+      "tag": "question255",
+      "patterns": [
+        "Is 66574 a composite number?"
+      ],
+      "responses": [
+        "True"
+      ]
+    },
+	  {
+      "tag": "question256",
+      "patterns": [
+        "Is 28151 composite?"
+      ],
+      "responses": [
+        "False"
+      ]
+    },
+	  {
+      "tag": "question257",
+      "patterns": [
+        "Is 2447 composite?"
+      ],
+      "responses": [
+        "False"
+      ]
+    },
+  	{
+      "tag": "question258",
+      "patterns": [
+        "Is 2053 a prime number?"
+      ],
+      "responses": [
+        "True"
+      ]
+    },
+	  {
+      "tag": "question259",
+      "patterns": [
+        "Is 19249 a prime number?"
+      ],
+      "responses": [
+        "True"
+      ]
+    },
+  	{
+      "tag": "question260",
+      "patterns": [
+        "Is 61117 a composite number?"
+      ],
+      "responses": [
+        "True"
+      ]
+    },
+  	{
+      "tag": "question261",
+      "patterns": [
+        "What is the remainder when 402 is divided by 101?"
+      ],
+      "responses": [
+        "99"
+      ]
+    },
+	  {
+      "tag": "question262",
+      "patterns": [
+        "Calculate the remainder when 3092 is divided by 110."
+      ],
+      "responses": [
+        "12"
+      ]
+    },
+	  {
+      "tag": "question263",
+      "patterns": [
+        "Calculate the remainder when 1348 is divided by 18."
+      ],
+      "responses": [
+        "18"
+      ]
+    },
+	  {
+      "tag": "question264",
+      "patterns": [
+        "What is the remainder when 148 is divided by 143?"
+      ],
+      "responses": [
+        "5"
+      ]
+    },
+	  {
+      "tag": "question265",
+      "patterns": [
+        "What is the remainder when 3459 is divided by 689?"
+      ],
+      "responses": [
+        "14"
+      ]
+    },
+  	{
+      "tag": "question266",
+      "patterns": [
+        "What is the remainder when 16399 is divided by 21?"
+      ],
+      "responses": [
+        "19"
+      ]
+    },
+	  {
+      "tag": "question267",
+      "patterns": [
+        "What is the remainder when 26 is divided by 2?"
+      ],
+      "responses": [
+        "0"
+      ]
+    },
+	  {
+      "tag": "question268",
+      "patterns": [
+        "What is the remainder when 474 is divided by 119?"
+      ],
+      "responses": [
+        "117"
+      ]
+    },
+  	{
+      "tag": "question269",
+      "patterns": [
+        "What is the remainder when 296 is divided by 279?"
+      ],
+      "responses": [
+        "17"
+      ]
+    },
+	  {
+      "tag": "question270",
+      "patterns": [
+        "Calculate the remainder when 7188 is divided by 141."
+      ],
+      "responses": [
+        "138"
+      ]
+    },
+	  {
+      "tag": "question271",
+      "patterns": [
+        "How many micrometers are there in twenty-one quarters of a millimeter?"
+      ],
+      "responses": [
+        "5250"
+      ]
+    },
+	  {
+      "tag": "question272",
+      "patterns": [
+        "What is fourty-three halves of a meter in millimeters?"
+      ],
+      "responses": [
+        "21500"
+      ]
+    },
+	  {
+      "tag": "question273",
+      "patterns": [
+        "Convert 7.49573mg to grams."
+      ],
+      "responses": [
+        "0.00749573"
+      ]
+    },
+	  {
+      "tag": "question274",
+      "patterns": [
+        "How many years are there in 263741.25 months?"
+      ],
+      "responses": [
+        "21978.4375"
+      ]
+    },
+	  {
+      "tag": "question275",
+      "patterns": [
+        "What is 995.4755ml in litres?"
+      ],
+      "responses": [
+        "0.9954755"
+      ]
+    },
+	  {
+      "tag": "question276",
+      "patterns": [
+        "How many micrograms are there in thirty-four fifths of a milligram?"
+      ],
+      "responses": [
+        "6800"
+      ]
+    },
+	  {
+      "tag": "question277",
+      "patterns": [
+        "How many days are there in 122.088 hours?"
+      ],
+      "responses": [
+        "5.087"
+      ]
+    },
+  	{
+      "tag": "question278",
+      "patterns": [
+        "How many days are there in 26/7 of a week?"
+      ],
+      "responses": [
+        "26"
+      ]
+    },
+  	{
+      "tag": "question279",
+      "patterns": [
+        "What is 754238.6 millilitres in litres?"
+      ],
+      "responses": [
+        "754.2386"
+      ]
+    },
+  	{
+      "tag": "question280",
+      "patterns": [
+        "How many grams are there in 15.5017 tonnes?"
+      ],
+      "responses": [
+        "15501700"
+      ]
+    },
+  	{
+      "tag": "question281",
+      "patterns": [
+        "What is the next term in 93, 154, 215, 276, 337, 398?"
+      ],
+      "responses": [
+        "459"
+      ]
+    },
+	  {
+      "tag": "question282",
+      "patterns": [
+        "What is the next term in -344, -686, -1028?"
+      ],
+      "responses": [
+        "-1370"
+      ]
+    },
+  	{
+      "tag": "question283",
+      "patterns": [
+        "What comes next: 30504, 30506, 30510, 30516, 30524?"
+      ],
+      "responses": [
+        "30534"
+      ]
+    },
+  	{
+      "tag": "question284",
+      "patterns": [
+        "What comes next: 68, 135, 202, 269, 336, 403?"
+      ],
+      "responses": [
+        "470"
+      ]
+    },
+  	{
+      "tag": "question285",
+      "patterns": [
+        "What is the next term in -1189, -2370, -3551, -4732?"
+      ],
+      "responses": [
+        "-5913"
+      ]
+    },
+  	{
+      "tag": "question286",
+      "patterns": [
+        "What comes next: 257, 245, 233, 221, 209, 197?"
+      ],
+      "responses": [
+        "185"
+      ]
+    },
+  	{
+      "tag": "question287",
+      "patterns": [
+        "What is next in 112, 226, 346, 472, 604, 742?"
+      ],
+      "responses": [
+        "886"
+      ]
+    },
+  	{
+      "tag": "question288",
+      "patterns": [
+        "What comes next: -26, -42, -58, -74, -90, -106?"
+      ],
+      "responses": [
+        "-122"
+      ]
+    },
+  	{
+      "tag": "question289",
+      "patterns": [
+        "Sum -10 and -52539."
+      ],
+      "responses": [
+        "-52549"
+      ]
+    },
+	  {
+      "tag": "question290",
+      "patterns": [
+        "What is -0.188 + -0.814?"
+      ],
+      "responses": [
+        "-1.002"
+      ]
+    },
+	  {
+      "tag": "question291",
+      "patterns": [
+        "Calculate 12810 - -2."
+      ],
+      "responses": [
+        "12812"
+      ]
+    },
+  	{
+      "tag": "question292",
+      "patterns": [
+        "Put together -22456 and 5."
+      ],
+      "responses": [
+        "-22461"
+      ]
+    },
+  	{
+      "tag": "question293",
+      "patterns": [
+        "Calculate -0.064 + 734."
+      ],
+      "responses": [
+        "733.936"
+      ]
+    },
+  	{
+      "tag": "question294",
+      "patterns": [
+        "What is -280 divided by -10?"
+      ],
+      "responses": [
+        "28"
+      ]
+    },
+	  {
+      "tag": "question295",
+      "patterns": [
+        "Calculate -4 divided by 3."
+      ],
+      "responses": [
+        "-4/3"
+      ]
+    },
+	{
+      "tag": "question296",
+      "patterns": [
+        "Calculate -378 divided by 4."
+      ],
+      "responses": [
+        "-189/2"
+      ]
+    },
+	  {
+      "tag": "question297",
+      "patterns": [
+        "What is 56508 divided by 4?"
+      ],
+      "responses": [
+        "14127"
+      ]
+    },
+	  {
+      "tag": "question298",
+      "patterns": [
+        "195 divided by -13"
+      ],
+      "responses": [
+        "-15"
+      ]
+    },
+	  {
+      "tag": "question299",
+      "patterns": [
+        "856 divided by 214"
+      ],
+      "responses": [
+        "4"
+      ]
+    },
+	  {
+      "tag": "question300",
+      "patterns": [
+        "Divide -6 by 2."
+      ],
+      "responses": [
+        "-3"
+      ]
+    },
+	  {
+      "tag": "question31",
+      "patterns": [
+        "What is Sines Table",
+        "Sines Table is",
+        "Meaning of Sines Table"
+      ],
+      "responses": [
+        "This table contains values from 0.0000 to 1.0000. As in the Tangents Table, the first column contains the angles from 0x to 90x. In the first row right at the top of the table, the minute values, namely 0', 10', 20' etc., and in the Mean Differencescolumn, the values 1', 2', ... 9' appear. This table is used in the same way that theTangents Table is used. (O/L MATHEMATICS TEXTBOOK - Grade 11 - Part III - Page 25)"
+      ]
+    },
+	  {
+      "tag": "question32",
+      "patterns": [
+        "What is Cosines",
+        "Cosines is",
+        "Meaning of Cosines"
+      ],
+      "responses": [
+        "In trigonometry, the law of cosines relates the lengths of the sides of a triangle to the cosine of one of its angles.(O/L MATHEMATICS TEXTBOOK - Grade 11 - Part III - Page 27)"
+      ]
+    },
+	  {
+      "tag": "question33",
+      "patterns": [
+        "What is Angles in a vertical plane",
+        "Angles in a vertical plane is",
+        "Meaning of Angles in a vertical plane"
+      ],
+      "responses": [
+        "A plane which is parallel to the earth (flat ground) is a horizontal plane. A planewhich is perpendicular to a horizontal plane is a vertical plane. A post which is fixed perpendicular to the earth is a vertical post. Such a post is depicted in thefigure.(O/L MATHEMATICS TEXTBOOK - Grade 11 - Part III - Page 33)"
+      ]
+    },
+	  {
+      "tag": "question34",
+      "patterns": [
+        "What is Angles in a horizontal plane",
+        "Angles in a horizontal plane is",
+        "Meaning of Angles in a horizontal plane"
+      ],
+      "responses": [
+        "You have learnt earlier that bearings are used to indicate directions in a horizontal plane. Bearings provide a measure of an angle that is measured starting from the North and moving in a clockwise direction. Bearings are given using three digits. In modern measuring instruments the distance is also given with the bearing. (O/L MATHEMATICS TEXTBOOK - Grade 11 - Part III - Page 37)"
+      ]
+    },
+	  {
+      "tag": "question35",
+      "patterns": [
+        "What is Matrices",
+        "Matrices is",
+        "Meaning of Matrices"
+      ],
+      "responses": [
+        "A matrix is a rectangular array of numbers, symbols, or expressions, arranged in rows and columns. The individual items in a matrix are called its elements or entries. Two matrices can be added or subtracted element by element if have the same number of rows and the same number of columns. (O/L MATHEMATICS TEXTBOOK - Grade 11 - Part III - Page 42)"
+      ]
+    },
+	  {
+      "tag": "question36",
+      "patterns": [
+        "What is Row matrix",
+        "Row matrix is",
+        "Meaning of Row matrix"
+      ],
+      "responses": [
+        "A matrix having a single row. ... A null matrix is also known as a zero matrix, and it is usually denoted by 0. 4. Square matrix: A matrix having equal number of rows and columns. Example: The matrix ( 3 − 2 − 3 1 ) is a square matrix of size 2 × 2 .(O/L MATHEMATICS TEXTBOOK - Grade 11 - Part III - Page 44)"
+      ]
+    },
+	  {
+      "tag": "question37",
+      "patterns": [
+        "What is Row matrix",
+        "Row matrix is",
+        "Meaning of Row matrix"
+      ],
+      "responses": [
+        "A matrix having a single row. ... A null matrix is also known as a zero matrix, and it is usually denoted by 0. 4. Square matrix: A matrix having equal number of rows and columns. Example: The matrix ( 3 − 2 − 3 1 ) is a square matrix of size 2 × 2 .(O/L MATHEMATICS TEXTBOOK - Grade 11 - Part III - Page 44)"
+      ]
+    },
+	  {
+      "tag": "question38",
+      "patterns": [
+        "What is Column Matrices",
+        "Column Matrices is",
+        "Meaning of Column Matrices"
+      ],
+      "responses": [
+        "A matrix with one column, sometimes used to represent a vector. (O/L MATHEMATICS TEXTBOOK - Grade 11 - Part III - Page 44)"
+      ]
+    },
+	  {
+      "tag": "question39",
+      "patterns": [
+        "What is Square matrix",
+        "Square matrix is",
+        "Meaning of Square matrix"
+      ],
+      "responses": [
+        "In mathematics, a square matrix is a matrix with the same number of rows and columns. An n-by-n matrix is known as a square matrix of order. . Any two square matrices of the same order can be added and multiplied. Square matrices are often used to represent simple linear transformations, such as shearing or rotation.(O/L MATHEMATICS TEXTBOOK - Grade 11 - Part III - Page 44)"
+      ]
+    },
+	  {
+      "tag": "question40",
+      "patterns": [
+        "What is Inequalities",
+        "Inequalities is",
+        "Meaning of Inequalities"
+      ],
+      "responses": [
+        "In mathematics, an inequality is a relation which makes a non-equal comparison between two numbers or other mathematical expressions. It is used most often to compare two numbers on the number line by their size.(O/L MATHEMATICS TEXTBOOK - Grade 11 - Part III - Page 57)"
+      ]
+    },
+	  {
+      "tag": "question41",
+      "patterns": [
+        "What is Cyclic Quadrilaterals",
+        "Cyclic Quadrilaterals is",
+        "Meaning of Cyclic Quadrilaterals"
+      ],
+      "responses": [
+        "A cyclic quadrilateral is a quadrilateral which has all its four vertices lying on a circle. It is also sometimes called inscribed quadrilateral. The circle which consist of all the vertices of any polygon on its circumference is known as the circumcircle or circumscribed circle.(O/L MATHEMATICS TEXTBOOK - Grade 11 - Part III - Page 63)"
+      ]
+    },
+	  {
+      "tag": "question42",
+      "patterns": [
+        "What is set",
+        "set is",
+        "Meaning of set"
+      ],
+      "responses": [
+        "set is a well-defined collection of distinct elements or members. The elements that make up a set can be anything: people, letters of the alphabet, or mathematical objects, such as numbers, points in space, lines or other geometrical shapes, algebraic constants and variables, or other sets.(O/L MATHEMATICS TEXTBOOK - Grade 11 - Part III - Page 117)"
+      ]
+    },
+	  {
+      "tag": "question43",
+      "patterns": [
+        "What is Independent events",
+        "Independent events is",
+        "Meaning of Independent events"
+      ],
+      "responses": [
+        "you learnt in Grade 10 that if the occurrence of an event does not depend on the occurrence of another event, then the two events are independent. If A and B are independent we know that P (A∩B) = P(A)P(B). An example of this is given below. Let us consider the random experiment of flipping two coins simultaneously and noting the sides that are face up. It is clear that the side which is face-up on one coin has no influence on the side which is face-up on the other coin. Therefore the side which is face-up on one coin is independent of the side which is face-up on the other coin. (O/L MATHEMATICS TEXTBOOK - Grade 11 - Part III - Page 129)"
+      ]
+    },
+	  {
+      "tag": "question44",
+      "patterns": [
+        "What is Dependent events",
+        "Dependent events is",
+        "Meaning of Dependent events"
+      ],
+      "responses": [
+        "If the occurrence of an event depends on the occurrence of another event, then they are called dependent events. That is, the occurrence of one event changes the probability of the other event. (O/L MATHEMATICS TEXTBOOK - Grade 11 - Part III - Page 129)"
+      ]
+    },
+	  {
+      "tag": "question20",
+      "patterns": [
+        "What is Compound Interest",
+        "Compound Interest is",
+        "Meaning of Compound Interest"
+      ],
+      "responses": [
+        "An alternative way of calculating interest for an amount of money borrowed or deposited is the compound interest method. (O/L MATHEMATICS TEXTBOOK - Grade 11 - Part II - Page 07)"
+      ]
+    },
+	  {
+      "tag": "question21",
+      "patterns": [
+        "What is Stock Market",
+        "Stock Market is",
+        "Meaning of Stock Market"
+      ],
+      "responses": [
+        "The Stock Market (Stock Exchange) is a place where securities such as shares anddebentures issued by companies are traded. The Colombo Stock Exchange (CSE) isthe organization responsible for the operation of the stock market in Sri Lanka. TheCSE is licensed by the Securities and Exchange Commission of Sri Lanka (SEC) tooperate as a stock market in Sri Lanka. The SEC regulates and oversees the stockmarket. Companies are admitted to the official list of the CSE as listed companies.On April 21st 2015 there were 297 companies listed in the Sri Lankan stock market.The public who wish to buy or sell securities in the stock market must registerwith one or more of the 15 licensed stockbroker firms of the CSE who attend to thetransactions. Some brokers offer trading through the internet.(O/L MATHEMATICS TEXTBOOK - Grade 11 - Part II - Page 11)"
+      ]
+    },
+	  {
+      "tag": "question22",
+      "patterns": [
+        "What is Shares",
+        "Shares is",
+        "Meaning of Shares"
+      ],
+      "responses": [
+        "Public limited companies which are listed in the stock market, that wish to raisecapital by involving the public, do this by issuing 'shares'. A share is one of theequal parts into which a company’s stated capital is divided.When a company issues new shares, the price of a share is decided by the companyitself. The public can invest in as many shares as they like. An investor who buysshares in a company becomes a part owner of that company. The stake he has in thecompany is proportional to the number of shares he owns.(O/L MATHEMATICS TEXTBOOK - Grade 11 - Part II - Page 12)"
+      ]
+    },
+	  {
+      "tag": "question23",
+      "patterns": [
+        "What is Dividends",
+        "Dividends is",
+        "Meaning of Dividends"
+      ],
+      "responses": [
+        "When a listed company issues new shares, it gives notice of the benefits thatshareholders will enjoy. Dividends are payments out of the earnings of the companywhich some companies give their shareholders as a benefit. It is expressed in termsof the amount paid per share. This is paid out quarterly or annually.For example, a company may pay its shareholders annual dividends of Rs 5 pershare. The company has the right to change this amount with time. (O/L MATHEMATICS TEXTBOOK - Grade 11 - Part II - Page 12)"
+      ]
+    },
+	  {
+      "tag": "question24",
+      "patterns": [
+        "What is Capital Gain",
+        "Capital Gain is",
+        "Meaning of Capital Gain"
+      ],
+      "responses": [
+        "The price at which a share is bought in a company at the initial offering or later atthe market price is called the purchase price of the share and the market price atwhich it is sold is called the selling price of the share.(O/L MATHEMATICS TEXTBOOK - Grade 11 - Part II - Page 15)"
+      ]
+    },
+	  {
+      "tag": "question25",
+      "patterns": [
+        "What is Midpoint Theorem",
+        "Midpoint Theorem is",
+        "Meaning of Midpoint Theorem"
+      ],
+      "responses": [
+        "The midpoint theorem states that The line segment in a triangle joining the midpoint of two sides of the triangle is said to be parallel to its third side and is also half of the length of the third side. (O/L MATHEMATICS TEXTBOOK - Grade 11 - Part II - Page 22)"
+      ]
+    },
+	  {
+      "tag": "question26",
+      "patterns": [
+        "What is Graphs",
+        "Graphs is",
+        "Meaning of Graphs"
+      ],
+      "responses": [
+        "In math, a graph can be defined as a pictorial representation or a diagram that represents data or values in an organized manner. The points on the graph often represent the relationship between two or more things. Then represent the data using a bar graph.(O/L MATHEMATICS TEXTBOOK - Grade 11 - Part II - Page 35)"
+      ]
+    },
+	  {
+      "tag": "question27",
+      "patterns": [
+        "What is Pythagoras’ Theorem",
+        "Pythagoras’ Theorem is",
+        "Meaning of Pythagoras’ Theorem"
+      ],
+      "responses": [
+        "In mathematics, the Pythagorean theorem, or Pythagoras's theorem, is a fundamental relation in Euclidean geometry among the three sides of a right triangle. It states that the area of the square whose side is the hypotenuse (the side opposite the right angle) is equal to the sum of the areas of the squares on the other two sides.(O/L MATHEMATICS TEXTBOOK - Grade 11 - Part III - Page 01)"
+      ]
+    },
+	  {
+      "tag": "question28",
+      "patterns": [
+        "What is Trigonometry ",
+        "Trigonometry  is",
+        "Meaning of Trigonometry "
+      ],
+      "responses": [
+        "Trigonometry from Greek trigonon, 'triangle' and metron, 'measure' is a branch of mathematics that studies relationships between side lengths and angles of triangles. (O/L MATHEMATICS TEXTBOOK - Grade 11 - Part III - Page 12)"
+      ]
+    },
+	  {
+      "tag": "question29",
+      "patterns": [
+        "What is Trigonometric Tables",
+        "Trigonometric Tables is",
+        "Meaning of Trigonometric Tables"
+      ],
+      "responses": [
+        "Trigonometry, the branch of mathematics concerned with specific functions of angles and their application to calculations. There are six functions of an angle commonly used in trigonometry. Their names and abbreviations are sine (sin), cosine (cos), tangent (tan), cotangent (cot), secant (sec), and cosecant (CSC). (O/L MATHEMATICS TEXTBOOK - Grade 11 - Part III - Page 22)"
+      ]
+    }
+  ]
+}
